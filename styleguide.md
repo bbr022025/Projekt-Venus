@@ -1,5 +1,7 @@
 # Styleguide
 
+(Trykke CTRL+K og deretter V i VSC for å få en leservennlig versjon av dette dokumentet :D )
+
 Denne styleguiden er bare en måte for oss å kommentere/planlegge rundt hva som skal gjøres. Det er bare for at alle har tilgang på et dokument hvor alt som er viktig å passe på står på et sted sånn at man kan jobbe med god samvittighet uten å måtte lese gjennom alt av kommentarer i CSS-en eller HTML-en. Akkurat nå er det sånn ca. en copypaste av det Ask ba oss om i oppgaven.
 
 ## Nettsiden skal ha en ganske enkel struktur:
@@ -45,6 +47,8 @@ Links to an external site. er en bra ressurs for bilder/informasjon
 
 - Planlegge design; basic wireframe
 - height er satt til 3x vanlig wireframe sånn at vi kan ha tre seksjoner nedover siden.
+
+### Autolayout
 
 ## Layout-mal
 
