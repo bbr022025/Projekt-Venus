@@ -4,6 +4,20 @@
 
 Denne styleguiden er bare en måte for oss å kommentere/planlegge rundt hva som skal gjøres. Det er bare for at alle har tilgang på et dokument hvor alt som er viktig å passe på står på et sted sånn at man kan jobbe med god samvittighet uten å måtte lese gjennom alt av kommentarer i CSS-en eller HTML-en. Akkurat nå er det sånn ca. en copypaste av det Ask ba oss om i oppgaven.
 
+## Hvem gjør hva?
+
+### Emilia
+
+-
+
+### Chris
+
+-
+
+### Brian
+
+-
+
 ## Nettsiden skal ha en ganske enkel struktur:
 
 - Header med en navbar som scroller til de forskjellige seksjonene.
