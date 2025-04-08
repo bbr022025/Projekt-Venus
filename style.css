@@ -17,7 +17,6 @@
 
   --preset-font-inter: "Inter", sans-serif;
   --preset-font-playfair: "Playfair Display", serif;
-  --preset-font-family: ;
 }
 
 /* Header */
@@ -51,6 +50,7 @@ nav {
   color: var(--preset-color-white-beige);
   text-decoration: none;
   font-size: 20px;
+  font-family: var(--preset-font-inter);
 }
 .nav-links ul li::after {
   content: "";
@@ -58,7 +58,6 @@ nav {
   height: 2px;
   background: var(--preset-color-orange);
   display: block;
-  margin: auto;
   transition: 0.5s;
 }
 .nav-links ul li:hover::after {
@@ -68,13 +67,12 @@ nav {
 /* Hero */
 
 .text-box {
-  width: 90%;
   color: var(--preset-color-white-beige);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-top: 10rem; */
 }
 .text-box h1 {
   font-size: 70px;
@@ -86,7 +84,7 @@ nav {
   font-size: small;
   color: var(--preset-color-white-beige);
 }
-.hero-btn {
+/* .hero-btn {
   display: inline-block;
   text-decoration: none;
   color: var(--preset-color-white-beige);
@@ -100,8 +98,8 @@ nav {
 .hero-btn:hover {
   border: 1px solid var(--preset-color-orange);
   background: var(--preset-color-red);
-  transition: 1s;
-}
+  transition: 1s; */
+/* } */
 
 /* Section */
 
