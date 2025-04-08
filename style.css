@@ -183,6 +183,13 @@ p {
   margin-left: 5rem;
   border-radius: 13rem;
 }
+
+#mission {
+  background-image: linear-gradient(rgba(6, 9, 18, 0.7), rgba(3, 6, 10, 0.7)),
+    url(images/venus-surface-ai.webp);
+  background-position: center;
+  background-size: cover;
+}
 footer {
   display: flex;
   justify-content: center;
