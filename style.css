@@ -18,9 +18,6 @@
   --preset-font-inter: "Inter", sans-serif;
   --preset-font-playfair: "Playfair Display", serif;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 /* Header */
 
@@ -37,7 +34,7 @@ nav {
   padding: 1rem 3rem;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  height: 15rem;
 }
 .nav-links {
   flex: 1;
@@ -130,22 +127,24 @@ nav {
 
 .container {
   background-color: var(--preset-color-black);
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 h2 {
   text-align: center;
   color: var(--preset-font-color-grey);
   font-family: var(--preset-font-playfair);
+  font-size: 30px;
 }
 
 p {
   color: var(--preset-font-color-grey);
   font-family: var(--preset-font-inter);
+  font-size: 20px;
 }
 
 .p-center {
-  padding: 15rem 15rem 10rem 10rem;
+  padding: 10rem 10rem 10rem 10rem;
 }
 
 #venus-surface {
