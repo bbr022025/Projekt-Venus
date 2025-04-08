@@ -29,6 +29,8 @@ html {
 
   --preset-font-inter: "Inter", sans-serif;
   --preset-font-playfair: "Playfair Display", serif;
+  --preset-font-family: ;
+  --preset-font-color-grey: #b9b9bb;
 }
 
 header {
