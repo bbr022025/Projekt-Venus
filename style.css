@@ -121,8 +121,7 @@ nav {
 /* Section */
 
 #nasa {
-  text-decoration: none;
-  color: var(--preset-color-white-beige);
+  color: var(--preset-color-white-beige); /* Initial text color */
   border: 0.2rem solid var(--preset-color-white-beige);
   padding: 12px 34px;
   font-size: 30px;
@@ -131,11 +130,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease; /* Smooth transition */
 }
+
 #nasa:hover {
   border: 0.2rem solid var(--preset-color-orange);
   background: var(--preset-color-red);
-  transition: 1s;
+  color: #ffffff; /* Make text color white on hover for contrast */
+  text-decoration: none;
 }
 
 .info {
