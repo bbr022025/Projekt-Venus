@@ -22,13 +22,13 @@
 /* Header */
 
 header {
-  min-height: 100vh;
-  width: 100vw;
-  background-image: linear-gradient(rgba(6, 9, 18, 0.7), rgba(3, 6, 10, 0.7)),
-    url(images/venus-nasa.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
+  background: rgb(87, 13, 13);
+  background: linear-gradient(
+    90deg,
+    rgba(87, 13, 13, 1) 10%,
+    rgba(22, 10, 1, 1) 70%
+  );
+  padding: 2rem;
 }
 nav {
   display: flex;
@@ -67,13 +67,24 @@ nav {
 
 /* Hero */
 
-.text-box {
-  color: var(--preset-color-white-beige);
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* padding-top: 10rem; */
+  padding: 2rem;
+  max-width: 100vw;
+  max-height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(6, 9, 18, 0.7), rgba(3, 6, 10, 0.7)),
+    url(images/venus-nasa.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.text-box {
+  color: var(--preset-color-white-beige);
 }
 .text-box h1 {
   font-size: 70px;
