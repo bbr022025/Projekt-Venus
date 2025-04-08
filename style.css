@@ -19,6 +19,10 @@
   --preset-font-playfair: "Playfair Display", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header */
 
 header {
@@ -34,7 +38,6 @@ nav {
   padding: 1rem 3rem;
   justify-content: space-between;
   align-items: center;
-  height: 15rem;
 }
 .nav-links {
   flex: 1;
@@ -94,7 +97,7 @@ nav {
 .text-box p {
   margin: 10px 0 40px;
   font-size: 2rem;
-  line-height: 50px;
+  line-height: 10rem;
   font-family: var(--preset-font-inter);
   color: var(--preset-color-white-beige);
 }
