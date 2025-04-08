@@ -122,6 +122,24 @@ nav {
 
 /* Section */
 
+#nasa {
+  text-decoration: none;
+  color: var(--preset-color-white-beige);
+  border: 0.2rem solid var(--preset-color-white-beige);
+  padding: 12px 34px;
+  font-size: 30px;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nasa:hover {
+  border: 0.2rem solid var(--preset-color-orange);
+  background: var(--preset-color-red);
+  transition: 1s;
+}
+
 .info {
   display: flex;
   flex-direction: column;
@@ -164,4 +182,8 @@ p {
   padding: 5rem;
   margin-left: 5rem;
   border-radius: 13rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }
