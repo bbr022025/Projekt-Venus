@@ -17,6 +17,14 @@
 html {
   scroll-behavior: smooth;
 } */
+:root {
+  --preset-color-black: #191919;
+  --preset-color-red: #750e21;
+  --preset-color-orange: #e3651d;
+  --preset-color-brown-grey: #8c6a5d;
+  --preset-color-white-beige: #faf0e6;
+  --preset-font-family: ;
+}
 
 header {
   min-height: 100vh;
