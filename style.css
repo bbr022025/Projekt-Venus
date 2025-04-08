@@ -18,12 +18,17 @@ html {
   scroll-behavior: smooth;
 } */
 :root {
+  /* -------------colors------- */
   --preset-color-black: #191919;
   --preset-color-red: #750e21;
   --preset-color-orange: #e3651d;
   --preset-color-brown-grey: #8c6a5d;
   --preset-color-white-beige: #faf0e6;
-  --preset-font-family: ;
+
+  /* ---------font----------- */
+
+  --preset-font-inter: "Inter", sans-serif;
+  --preset-font-playfair: "Playfair Display", serif;
 }
 
 header {
@@ -52,13 +57,25 @@ nav {
   position: relative;
 }
 .nav-links ul li a {
-  color: white;
+  color: var(--preset-color-white-beige);
   text-decoration: none;
   font-size: 20px;
 }
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--preset-color-orange);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
 .text-box {
   width: 90%;
-  color: var(--preset--color--white-smoke);
+  color: var(--preset-color-white-beige);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -73,13 +90,13 @@ nav {
   font-size: 40px;
   line-height: 50px;
   font-size: small;
-  color: var(--preset--color--white-smoke);
+  color: var(--preset-color-white-beige);
 }
 .hero-btn {
   display: inline-block;
   text-decoration: none;
-  color: var(--preset--color--white-smoke);
-  border: 1px solid var(--preset--color--white-smoke);
+  color: var(--preset-color-white-beige);
+  border: 1px solid var(--preset-color-white-beige);
   padding: 12px 34px;
   font-size: 30px;
   background: transparent;
@@ -87,8 +104,8 @@ nav {
   cursor: pointer;
 }
 .hero-btn:hover {
-  border: 1px solid var(--preset--color--super-nova);
-  background: var(--preset--color--super-nova);
+  border: 1px solid var(--preset-color-orange);
+  background: var(--preset-color-red);
   transition: 1s;
 }
 
