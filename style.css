@@ -33,6 +33,17 @@ html {
   --preset-font-color-grey: #b9b9bb;
 }
 
+h2 {
+  text-align: center;
+  color: var(--preset-font-color-grey);
+  background-color: var(--preset-color-black);
+}
+
+p {
+  color: var(--preset-font-color-grey);
+  background-color: var(--preset-font-color-grey);
+}
+
 header {
   min-height: 100vh;
   width: 100vw;
