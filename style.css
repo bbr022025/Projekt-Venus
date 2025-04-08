@@ -125,3 +125,13 @@ h2 {
 p {
   color: var(--preset-font-color-grey);
 }
+
+.p-center {
+  padding: 15rem 15rem 10rem 10rem;
+}
+
+#venus-surface {
+  height: 35vw;
+  padding: 5rem;
+  margin-left: 5rem;
+}
