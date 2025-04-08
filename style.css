@@ -103,22 +103,6 @@ nav {
   font-family: var(--preset-font-inter);
   color: var(--preset-color-white-beige);
 }
-/* .hero-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: var(--preset-color-white-beige);
-  border: 1px solid var(--preset-color-white-beige);
-  padding: 12px 34px;
-  font-size: 30px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
-}
-.hero-btn:hover {
-  border: 1px solid var(--preset-color-orange);
-  background: var(--preset-color-red);
-  transition: 1s; */
-/* } */
 
 /* Section */
 
@@ -130,23 +114,17 @@ nav {
   cursor: pointer;
   border-radius: 1rem;
   transition: all 0.3s ease; /* Smooth transition */
-
-  a {
-    text-decoration: none;
-    color: var(--preset-color-white-beige);
-    font-family: var(--preset-font-playfair);
-  }
 }
-
+a {
+  text-decoration: none;
+  color: var(--preset-color-white-beige);
+  font-family: var(--preset-font-playfair);
+}
 #nasa:hover {
   border: 0.2rem solid var(--preset-color-orange);
   background: var(--preset-color-red);
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-}
 .box {
   display: flex;
 }
