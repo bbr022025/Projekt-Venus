@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   /* Valgt farge bare for å se kontrastene. */
-  background-color: red;
+/* background-color: red;
   height: 25dvh;
   position: sticky;
   top: 0;
@@ -16,4 +16,70 @@ nav {
 
 html {
   scroll-behavior: smooth;
+} */
+
+header {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(6, 9, 18, 0.7), rgba(3, 6, 10, 0.7)),
+    url(images/venus-nasa.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.text-box {
+  width: 90%;
+  color: var(--preset--color--white-smoke);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 70px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 40px;
+  line-height: 50px;
+  font-size: small;
+  color: var(--preset--color--white-smoke);
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--preset--color--white-smoke);
+  border: 1px solid var(--preset--color--white-smoke);
+  padding: 12px 34px;
+  font-size: 30px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 1px solid var(--preset--color--super-nova);
+  background: var(--preset--color--super-nova);
+  transition: 1s;
 }
