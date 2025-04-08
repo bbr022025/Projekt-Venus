@@ -4,19 +4,6 @@
   box-sizing: border-box;
 }
 
-/* nav {
-  display: flex;
-  justify-content: space-between;
-  /* Valgt farge bare for å se kontrastene. */
-/* background-color: red;
-  height: 25dvh;
-  position: sticky;
-  top: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-} */
 :root {
   /* -------------colors------- */
   --preset-color-black: #191919;
@@ -24,13 +11,13 @@ html {
   --preset-color-orange: #e3651d;
   --preset-color-brown-grey: #8c6a5d;
   --preset-color-white-beige: #faf0e6;
+  --preset-font-color-grey: #b9b9bb;
 
   /* ---------font----------- */
 
   --preset-font-inter: "Inter", sans-serif;
   --preset-font-playfair: "Playfair Display", serif;
   --preset-font-family: ;
-  --preset-font-color-grey: #b9b9bb;
 }
 
 h2 {
