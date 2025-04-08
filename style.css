@@ -33,16 +33,7 @@ html {
   --preset-font-color-grey: #b9b9bb;
 }
 
-h2 {
-  text-align: center;
-  color: var(--preset-font-color-grey);
-  background-color: var(--preset-color-black);
-}
-
-p {
-  color: var(--preset-font-color-grey);
-  background-color: var(--preset-font-color-grey);
-}
+/* Header */
 
 header {
   min-height: 100vh;
@@ -86,6 +77,9 @@ nav {
 .nav-links ul li:hover::after {
   width: 100%;
 }
+
+/* Hero */
+
 .text-box {
   width: 90%;
   color: var(--preset-color-white-beige);
@@ -122,10 +116,25 @@ nav {
   transition: 1s;
 }
 
+/* Section */
+
 .info {
   display: flex;
   flex-direction: column;
 }
 .box {
   display: flex;
+}
+
+.container {
+  background-color: var(--preset-color-black);
+}
+
+h2 {
+  text-align: center;
+  color: var(--preset-font-color-grey);
+}
+
+p {
+  color: var(--preset-font-color-grey);
 }
