@@ -7,4 +7,11 @@
 nav {
   display: flex;
   justify-content: space-between;
+  /* Valgt farge bare for å se kontrastene. */
+  background-color: red;
+  height: 25dvh;
+}
+
+html {
+  scroll-behavior: smooth;
 }
