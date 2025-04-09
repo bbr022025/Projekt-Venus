@@ -139,6 +139,8 @@ a {
 .box {
   display: flex;
   justify-content: space-around;
+  width: 100dvw;
+  padding: 1rem;
 }
 
 .container {
@@ -167,7 +169,7 @@ p {
 }
 
 .p-center {
-  padding: 0.5rem;
+  padding: 3rem;
   width: 50dvw;
 }
 
@@ -183,6 +185,11 @@ p {
     url(images/venus-surface-ai.webp);
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* Padding to fix scroll behavior. */
+  padding-top: 1rem;
 }
 footer {
   display: flex;
@@ -196,6 +203,9 @@ footer {
   padding: 1.5rem;
 }
 #info {
-  padding-top: 1rem;
+  /* Padding to fix scroll-behavior. */
+  padding-top: 2rem;
   background-color: var(--preset-color-black);
+  display: flex;
+  align-items: center;
 }
