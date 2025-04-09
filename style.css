@@ -189,7 +189,7 @@ p {
   justify-content: center;
   flex-direction: column;
   /* Padding to fix scroll behavior. */
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 footer {
   display: flex;
@@ -204,8 +204,15 @@ footer {
 }
 #info {
   /* Padding to fix scroll-behavior. */
-  padding-top: 2rem;
+  padding-top: 2.2rem;
   background-color: var(--preset-color-black);
   display: flex;
   align-items: center;
+}
+
+h3 {
+  color: var(--preset-font-color-grey);
+  font-family: var(--preset-font-inter);
+  text-align: center;
+  padding: 0.5rem;
 }
