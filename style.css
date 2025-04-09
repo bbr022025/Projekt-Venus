@@ -112,6 +112,11 @@ section {
   min-width: 100vw;
 }
 
+iframe {
+  padding: 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
 #nasa {
   border: 0.2rem solid var(--preset-color-white-beige);
   padding: 0.5rem 2rem;
@@ -133,6 +138,7 @@ a {
 
 .box {
   display: flex;
+  justify-content: space-around;
 }
 
 .container {
@@ -161,7 +167,8 @@ p {
 }
 
 .p-center {
-  padding: 5rem;
+  padding: 0.5rem;
+  width: 50dvw;
 }
 
 #venus-surface {
@@ -189,6 +196,6 @@ footer {
   padding: 1.5rem;
 }
 #info {
-  padding-top: 10rem;
+  padding-top: 1rem;
   background-color: var(--preset-color-black);
 }
