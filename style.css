@@ -175,3 +175,7 @@ footer {
   display: flex;
   justify-content: center;
 }
+#info {
+  padding-top: 10rem;
+  background-color: var(--preset-color-black);
+}
